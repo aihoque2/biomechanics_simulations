@@ -33,7 +33,7 @@ int main(){
 
     // Initialize the system and set the state.
     State state = system.realizeTopology();
-    pendulum2.setRate(state, 5.0); //we are supposing that the system moves at 5.0 m/s
+    pendulum2.setRate(state, 12.0); //we are supposing that the system moves at 5.0 m/s
 
     // run the simulation for 30 seconds.
     RungeKuttaMersonIntegrator integ(system);
