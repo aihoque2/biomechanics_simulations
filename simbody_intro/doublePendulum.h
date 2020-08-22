@@ -8,12 +8,11 @@ using namespace SimTK;
 class doublePendulum{
 
 	public:
-		MobilizedBody::Pin pendulum1; //upper pendulum
-		MobilizedBody::Pin pendulum2;
-		
 		doublePuendulum(); //just the default constructor
 		
-
+	private:
+		MobilizedBody::Pin pendulum1; //upper pendulum
+                MobilizedBody::Pin pendulum2;
 
 		
 
